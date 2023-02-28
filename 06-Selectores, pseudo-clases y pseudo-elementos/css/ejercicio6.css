@@ -1,0 +1,25 @@
+body {
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton:hover {
+    padding: 0 40px 0 40px;
+background-color:green ;
+color: white;
+}
+
+
+.boton::before {
+    content: "PASAR POR ENCIMA";
+}
+
+
+
+.boton:hover::before {
+    content: "¡HECHO!";
+       
+}   
